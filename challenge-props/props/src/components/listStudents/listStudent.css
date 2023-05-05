@@ -1,0 +1,19 @@
+.container{
+    background-image: radial-gradient(circle at 50% 50%, #ffb283 0, #ffbc6f 5.56%, #ffc55d 11.11%, #ffcf4b 16.67%, #ffd93b 22.22%, #ffe22d 27.78%, #ffea23 33.33%, #fff222 38.89%, #f4f92a 44.44%, #dcff38 50%, #c2ff49 55.56%, #a6ff5c 61.11%, #86ff70 66.67%, #5aff86 72.22%, #00ff9c 77.78%, #00ffb3 83.33%, #00ffcb 88.89%, #00ffe4 94.44%, #00fffc 100%);
+    border: 2px solid black;
+   
+}
+.container__cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cards{
+    border: 2px solid black;
+    margin: 10px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 10px;
+}
